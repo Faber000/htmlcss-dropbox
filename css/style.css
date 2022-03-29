@@ -80,6 +80,11 @@ button {
     color: white;
 }
 
+.button-nav {
+    float: right;
+    margin-right: 20px;
+}
+
 .button-partner {
     background-color: white;
     color:black;
@@ -293,10 +298,9 @@ button {
     color: blue;
 }
 
-.list-left {
-    margin-right: 450px;
+.list-right {
+    float: right;
 }
-
 #div-small {
     margin-top: 5px;
 }
