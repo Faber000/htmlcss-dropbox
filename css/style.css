@@ -96,7 +96,8 @@ button {
     background-color: white;
     color:black;
     display: inline-block;
-    margin-left: 250px;
+    float: right;
+    margin-top: 110px;
 }
 
 .button-contact {
@@ -120,7 +121,7 @@ button {
     background-color: rgb(245, 245, 245);
 }
 
-.container-hero {
+.container-big {
     width: 80vw;
     height: auto;
     margin: auto;
@@ -128,8 +129,8 @@ button {
     padding-top: 50px;
 }
 
-.container-col {
-    width:  60%;
+.container-small {
+    width:  70%;
     height: auto;
     margin: auto;
     margin-bottom: 50px;
@@ -153,11 +154,6 @@ button {
 .container-text {
     margin-top: 100px;
     
-}
-
-.container-start {
-    padding: 50px;
-    padding-left: 200px;
 }
 
 .start {
@@ -326,6 +322,27 @@ button {
 
 .right {
     float:right;
+}
+
+.li-faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+
+.div-faq {
+    width: 100%;
+    border-top: 1px solid lightgrey;
+}
+
+.div-last-faq {
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq {
+    width: 100%;
 }
 
 .square-lightgreen {
