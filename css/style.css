@@ -16,6 +16,11 @@ body {
     font-size: small;
 }
 
+footer {
+    background-color: black;
+    height: 500px;
+}
+
 h1 {
     font-size: 70px;
 }
@@ -163,6 +168,11 @@ button {
     background-color: rgb(180, 208, 231);
 }
 
+.footer-bottom {
+    height: 50px;
+    width: 90px;
+    margin-top: 100px;
+}
 /* Layout Elements */
 .col {
     width: calc(100%/3 - 40px);
@@ -240,6 +250,10 @@ button {
     margin-top: 50px;
     margin-right: 100px;
     margin-bottom: 20px;
+}
+
+.p-footer {
+    color:lightgrey;
 }
 
 .text-grey {
@@ -343,6 +357,30 @@ button {
 
 .faq {
     width: 100%;
+}
+
+.list-footer {
+    display: inline-block;
+    color: white;
+    margin: 3% 6% 3% 0;
+}
+
+.list-title, .list-footer > li {
+    display: block;
+}
+
+.list-footer > li {
+    font-size: small;
+}
+
+.list-title {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.border {
+    border-top: 1px solid lightgrey;
+    
 }
 
 .square-lightgreen {
